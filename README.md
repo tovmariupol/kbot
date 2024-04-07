@@ -1,6 +1,6 @@
 # kbot
 The project was developed to study the possibility of interaction with Telegram-bot.
-During the development of the program the bot is used:
+During the development of the program, the bot is used:
 t.me/olehtyshchenko_bot
 
 How to use:
@@ -11,14 +11,14 @@ How to use:
 1.2.2 Enter the name of the bot. For example" kbot
 1.2.3 Enter a username for your bot. For example FirstnameLastname_bot
 1.2.4 Save the received token
-2. Clone repository
-3. Set the Telegram's token to environment variable. For example,
+3. Clone repository
+4. Set the Telegram's token to environment variable. For example,
  read -s TELE_TOKEN   
  ctrl-v
-4. Check the value of the variable and export it
+5. Check the value of the variable and export it
  echo $TELE_TOKEN
  export TELE_TOKEN 
-5. Start the program with the parameter "start" from the repository directory 
+6. Start the program with the parameter "start" from the repository directory 
 
 If the connection to the bot is successful. you will see the following message:
 kbot v1.0.2 started
